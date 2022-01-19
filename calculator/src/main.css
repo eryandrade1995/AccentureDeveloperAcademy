@@ -1,0 +1,77 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.calculadora {
+  width: 400px;
+  height: 600px;
+}
+
+.linha {
+  display: flex;
+  width: 100%;
+}
+
+/*css da classe button*/
+
+.button {
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.6em;
+  background-color: black;
+  color: white;
+  flex: 1;
+  outline: 1px solid gray;
+  border-radius: 20px;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+/* css do botao Limpar */
+
+.operator {
+  background-color: #9f19dd;
+  color: #ffffff;
+}
+
+.limpar {
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.4em;
+  background-color: #c5c3cd;
+  color: #000000;
+  flex: 1;
+  outline: 1px solid #888888;
+}
+
+.limpar:hover {
+  transform: scale(1.05);
+  background-color: darkturquoise;
+}
+
+/* css da tela */
+
+.input {
+  height: 4em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.6em;
+  background-color: gray;
+  color: white;
+  padding: 0.1em;
+  outline: 1px solid white;
+}
