@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Times New Roman', Times, serif, sans-serif;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .cataloh-h {
@@ -20,6 +22,12 @@ body {
   cursor: pointer;
 }
 
+.btn-add:hover{
+  outline: 2px solid #000000;
+  transform: scale(1.2);
+  transition-duration: 30ms;
+}
+
 .btn-cancel {
   font-size: 2rem;
   border: 1px;
@@ -30,13 +38,19 @@ body {
   cursor: pointer;
 }
 
+.btn-cancel:hover {
+  outline: 2px solid #000000;
+  transform: scale(1.2);
+  transition-duration: 30ms;
+}
+
 
 .btn-sub {
-  margin-top: 1rem;
-  border-radius: .5rem;
+  margin-top: 2rem;
+  border-radius: 2rem;
   background-color: #55DD1E;
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   padding: .5rem 0;
   border: none;
   font-weight: bold;
@@ -44,8 +58,8 @@ body {
 }
 
 .btn-sub:hover:enabled {
-  background-color: #FFF;
-  outline: 2px solid #FFF;
+  transform: scale(1.05);
+  transition-duration: 30ms;
 }
 
 .btn-sub:active {
@@ -81,13 +95,20 @@ ul {
   padding: 0;
 }
 
+
+
 .content {
-  border-left: solid 5px #55DD1E;
-  background-color: #868586c0;
+  background-color:aquamarine;
   padding: .6rem 2rem;
   margin-bottom: 1rem;
   border-radius: 4rem;
   cursor: pointer;
+  box-shadow: 10px 10px;
+}
+
+.content:hover {
+  transform: scale(1.05);
+  transition-duration: 30ms;
 }
 
 
@@ -107,7 +128,7 @@ form {
 }
 
 label {
-  margin-bottom: .4rem;
+  margin-bottom: .5rem;
   font-weight: bold;
   color: #fff;
   font-size: 1.5rem;
@@ -118,7 +139,7 @@ input {
   border: none;
   border-radius: .5rem;
   outline: 1px solid #FFF;
-  cursor: pointer;
+  cursor:text;
   width: 92%;
   font-size: 1.2rem;
 }
