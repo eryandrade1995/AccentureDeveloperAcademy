@@ -1,0 +1,33 @@
+#pulse {
+    width: 50px;
+    height: 40px;
+    background-color: rgb(74,255,212);
+    border-radius: 60%;
+    animation: pulsing 1.7s Linear infinite;
+    position: relative;
+    margin-left: 20px;
+    margin-right: -80%;
+    padding-right: auto;
+
+
+}
+
+@keyframes pulsing {
+    0% {
+        box-shadow: 0 0 0 0 rgba(74,255,212, 1);
+
+    }
+    100%
+    {
+        box-shadow: 0 0 0 20px rgba(74,255,212, 0);
+    }
+}
+
+#btn-links {
+   display: inline;
+    
+}
+
+#div {
+    align-items: center;
+}

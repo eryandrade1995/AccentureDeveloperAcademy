@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
-export default function Theme() {
+export default function useTheme() {
 
 const themeLight = {
-    primary: "white",
+    primary: "lightsteelblue",
     secondary: "black",
     highlight: "pink",
     width: "4000px",
@@ -11,16 +11,15 @@ const themeLight = {
 
 const themeDark = {
     primary: "black",
-    secondary: "white",
+    secondary: "lightsteelblue",
     highlight: "pink",
     width: "4000px",
   };
 
-
 const [theme, setTheme] = useState(themeLight);
 
 const changeTheme = () => {
-    if (theme.primary === "white") {
+    if (theme.primary === "lightsteelblue") {
       setTheme(themeDark);
     } else {
       setTheme(themeLight);
