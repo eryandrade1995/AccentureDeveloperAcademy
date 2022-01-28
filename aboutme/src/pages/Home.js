@@ -3,7 +3,7 @@ import * as W from '../styles/who.styles';
 import { useNavigate } from "react-router-dom";
 import '../styles/style.button.css';
 
- export default function Home({ onChangeTheme }) {
+ export default function Home() {
     const navigate = useNavigate();
     return (
         <>

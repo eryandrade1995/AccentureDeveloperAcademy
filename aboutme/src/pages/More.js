@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import '../styles/style.button.css';
 
 
-function More({ onChangeTheme }) {
+function More() {
     const navigate = useNavigate();
     return (
         <>
