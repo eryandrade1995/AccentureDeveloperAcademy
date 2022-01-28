@@ -1,1 +1,4 @@
-    Estudo pessoal de Redux, com aplicabilidade e abstração de código para diminuição da verbosidade do código da aplicação. estudo de reforço para os módulos da Academia Front-end na Accenture.
+    Estudo pessoal de Redux,
+    abstração de código para diminuição da verbosidade 
+    na aplicação. 
+    Estudo de reforço para os módulos da Academia Front-end na Accenture.
