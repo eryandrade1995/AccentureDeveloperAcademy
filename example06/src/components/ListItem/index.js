@@ -14,7 +14,7 @@ export default function ListItem({ item, onCheckClick, onRemoveClick }) {
     onCheckClick(item)
   }
   
-  return (
+  return ( 
     <S.Container>
       <div>
         <S.Checkbox
