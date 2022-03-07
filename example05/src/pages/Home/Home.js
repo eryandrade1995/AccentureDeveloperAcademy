@@ -13,7 +13,7 @@ export default function Home() {
         <S.Body>
           <S.Text>Bem vindo(a).</S.Text>
         </S.Body>
-
+        
         <S.Footer>
           <Button name="Back" onClick={() => navigate("../")} />
           <Button name="Next" onClick={() => navigate("../pokemon")} />
